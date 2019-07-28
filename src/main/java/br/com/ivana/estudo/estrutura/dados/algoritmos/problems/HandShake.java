@@ -1,5 +1,8 @@
 package br.com.ivana.estudo.estrutura.dados.algoritmos.problems;
 
+import java.io.BufferedReader;
+import java.nio.file.Files;
+
 public class HandShake {
 
     int handshake(int n) {
