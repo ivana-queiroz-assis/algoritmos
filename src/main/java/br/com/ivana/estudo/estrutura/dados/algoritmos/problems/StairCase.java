@@ -24,7 +24,7 @@ public class StairCase {
     }
 
     public int climbStairs(int n) {
-        climb_Stairs(0, n);
+       return climb_Stairs(0, n);
     }
     public int climb_Stairs(int i, int n) {
         if (i > n) {
