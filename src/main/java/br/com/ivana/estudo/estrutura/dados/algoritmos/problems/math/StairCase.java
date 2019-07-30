@@ -1,4 +1,4 @@
-package br.com.ivana.estudo.estrutura.dados.algoritmos.problems;
+package br.com.ivana.estudo.estrutura.dados.algoritmos.problems.math;
 
 import java.util.HashSet;
 import java.util.Set;

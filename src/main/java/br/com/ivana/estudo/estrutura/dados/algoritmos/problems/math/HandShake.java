@@ -1,4 +1,4 @@
-package br.com.ivana.estudo.estrutura.dados.algoritmos.problems;
+package br.com.ivana.estudo.estrutura.dados.algoritmos.problems.math;
 
 import java.io.BufferedReader;
 import java.nio.file.Files;

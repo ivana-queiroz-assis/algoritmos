@@ -1,8 +1,4 @@
-package br.com.ivana.estudo.estrutura.dados.algoritmos.problems;
-
-import java.util.HashMap;
-import java.util.Map;
-
+package br.com.ivana.estudo.estrutura.dados.algoritmos.problems.array;
 
 //Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 //
