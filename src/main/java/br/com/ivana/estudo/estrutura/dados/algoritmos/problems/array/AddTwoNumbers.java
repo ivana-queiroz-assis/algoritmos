@@ -25,30 +25,30 @@ public class AddTwoNumbers {
         }
     }
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        String stringL1= "";
-        String stringL2= "";
-        StringBuilder input1 = new StringBuilder();
-        StringBuilder input2 = new StringBuilder();
-        while (l1.next != null){
-            stringL1 += String.valueOf(l1.val);
-            l1= l1.next;
-        }
-        while (l2.next != null){
-            stringL2 += String.valueOf(l2.val);
-            l2= l2.next;
-        }
-        input1.append(stringL1);
-        input1 = input1.reverse();
-
-        input2.append(stringL2);
-        input2 = input2.reverse();
-
-        int numberL1 = Integer.parseInt(input1.toString());
-        int numberL2 = Integer.parseInt(input2.toString());
-        int total = numberL1 + numberL2;
-
-        ListNode totalListNode = new ListNode();
-
-    }
+//    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//        String stringL1= "";
+//        String stringL2= "";
+//        StringBuilder input1 = new StringBuilder();
+//        StringBuilder input2 = new StringBuilder();
+//        while (l1.next != null){
+//            stringL1 += String.valueOf(l1.val);
+//            l1= l1.next;
+//        }
+//        while (l2.next != null){
+//            stringL2 += String.valueOf(l2.val);
+//            l2= l2.next;
+//        }
+//        input1.append(stringL1);
+//        input1 = input1.reverse();
+//
+//        input2.append(stringL2);
+//        input2 = input2.reverse();
+//
+//        int numberL1 = Integer.parseInt(input1.toString());
+//        int numberL2 = Integer.parseInt(input2.toString());
+//        int total = numberL1 + numberL2;
+//
+////        ListNode totalListNode = new ListNode();
+//
+//    }
 }
