@@ -6,10 +6,10 @@ public class DailyProblem145 {
 
     public static void main(String[] args) {
         forceBrute();
-        cleverWay();
+        recursiveWay();
 
     }
-    private static void cleverWay() {
+    private static void recursiveWay() {
 
     }
     private static void forceBrute() {
