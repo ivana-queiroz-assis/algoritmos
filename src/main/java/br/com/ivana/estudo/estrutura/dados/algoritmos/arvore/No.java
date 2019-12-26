@@ -1,5 +1,7 @@
 package br.com.ivana.estudo.estrutura.dados.algoritmos.arvore;
 
+import java.util.LinkedList;
+
 public class No {
     private Long data;
     private No left;
@@ -71,4 +73,23 @@ public class No {
         if(right != null) right.printPostOrder();
         System.out.println(data);
     }
+
+    public LinkedList<Long> findMinimumPath(){
+        LinkedList<Long> list = new LinkedList<>();
+
+        //list.add(sumRootUntilLeaf());
+
+        return list;
+    }
+
+//  list  private long sumRootUntilLeaf(No no){
+//        if(left != null){
+//            return this.data + sumRootUntilLeaf(no);
+//        }
+////        if(right != null){
+////            return this.data + sumRootUntilLeaf();
+////        }
+//        return this.data;
+//
+//    }
 }
