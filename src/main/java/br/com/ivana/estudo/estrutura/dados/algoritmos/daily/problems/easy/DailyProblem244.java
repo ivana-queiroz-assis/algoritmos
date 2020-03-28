@@ -3,6 +3,8 @@ package br.com.ivana.estudo.estrutura.dados.algoritmos.daily.problems.easy;
 import java.util.HashSet;
 import java.util.Set;
 
+
+//The Sieve of Eratosthenes
 public class DailyProblem244 {
 
     public static Set<Integer> markedNumbers = new HashSet<>();
